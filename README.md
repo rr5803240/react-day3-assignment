@@ -33,4 +33,5 @@ Note: no need to run json-server seperately again!
 
 ### `DEMO`
 
-[Uploading 20210609_151253.gif…]()
+![20210609_151253](https://user-images.githubusercontent.com/82791508/121333754-b2cb0a80-c936-11eb-9a55-34926aea8fd9.gif)
+
