@@ -3,32 +3,28 @@
 ### Reference only  Github repo /Project folder shared with Evaluvator 
 
 
-## software/packages required for application
+### software/packages required for application
 
 1. node 8 version and above
 2. npm version 6 and above
 3. json-server needs to be installed globally
 
 
-## Initialize and install the packages for application
+## For Running the Application follow the commands
 
-### `npm install`  (Inside the project folder where package.json is available)
+### STEP 1: `npm install` 
+   
+   Note: Inside the project folder where package.json is available else you will get error.
 
-### Running the application
-
-### `npm run start`
-
-1. Runs the app in the development mode.\
+### STEP 2: `npm run start`  
+Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-2. Runs the json-server. \
+Runs the json-server. \
 Open [http:localhost:6700](http://localhost:6700) to view it in the browser.
-
-### Resources
----------
 [http://localhost:6700/courses](http://localhost:6700/courses) - api for Courses.
 [http://localhost:6700/trainees](http://localhost:6700/trainees) - api for Trainees.
 
