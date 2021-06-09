@@ -17,14 +17,14 @@
    Note: Inside the project folder where package.json is available else you will get error.
 
 ### STEP 2: `npm run start`  
-Runs the app in the development mode.\
+####Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-Runs the json-server. \
-Open [http:localhost:6700](http://localhost:6700) to view it in the browser.
-[http://localhost:6700/courses](http://localhost:6700/courses) - api for Courses.
-[http://localhost:6700/trainees](http://localhost:6700/trainees) - api for Trainees.
+####Runs the json-server. \
+Open [http:localhost:6700](http://localhost:6700) to view it in the browser.\
+[http://localhost:6700/courses](http://localhost:6700/courses) - api for Courses.\
+[http://localhost:6700/trainees](http://localhost:6700/trainees) - api for Trainees.\
 
