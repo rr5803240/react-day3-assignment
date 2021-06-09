@@ -29,4 +29,8 @@ Open [http:localhost:6700](http://localhost:6700) to view it in the browser.\
 [http://localhost:6700/courses](http://localhost:6700/courses) - api for Courses.\
 [http://localhost:6700/trainees](http://localhost:6700/trainees) - api for Trainees.
 
-Note: no need to run json-server seperately again
+Note: no need to run json-server seperately again!
+
+### `DEMO`
+
+[Uploading 20210609_151253.gif…]()
