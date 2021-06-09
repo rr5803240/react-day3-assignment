@@ -1,0 +1,79 @@
+{
+  "courses": [
+    {
+      "name": "React Js",
+      "courseId": 44321,
+      "description": "Course to Understand Basics and Create RoadMap to building React Js apps",
+      "dateOfStart": "10/07/2021",
+      "totalSeats": "30",
+      "icon": "FaReact"
+    },
+    {
+      "name": "Angular Js",
+      "courseId": 34552,
+      "description": "Study of Advanced Angular concepts including CRUD operations",
+      "dateOfStart": "21/07/2021",
+      "totalSeats": "20",
+      "icon": "FaAngular"
+    },
+    {
+      "name": "Node Js",
+      "courseId": 76645,
+      "description": "How to Build applications using Node with the help of express library and mongodb",
+      "dateOfStart": "01/08/2021",
+      "totalSeats": "30",
+      "icon": "FaNodeJs"
+    },
+    {
+      "name": "Next Js",
+      "courseId": 23222,
+      "description": "Using Automation by utlizing Next Js library, how effectively Nx.js can be utilized",
+      "dateOfStart": "12/08/2021",
+      "totalSeats": "25",
+      "icon": "SiNextDotJs"
+    },
+    {
+      "name": "Vue Js",
+      "courseId": 56333,
+      "description": "Learn new JS library in the market which was developed by Laravel Team",
+      "dateOfStart": "26/01/2021",
+      "totalSeats": "30",
+      "icon": "FaVuejs"
+    }
+  ],
+  "trainees": [
+    {
+      "firstName": "",
+      "lastName": "",
+      "emailId": "",
+      "contact": "",
+      "courseId": 34552,
+      "courseName": "Angular Js",
+      "formBgColor": "hsl(700,93-,53-)",
+      "enrolledDate": "2021-06-08T23:49:46.430Z",
+      "id": 1
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "emailId": "test@test.com",
+      "contact": "test",
+      "courseId": 34552,
+      "courseName": "Angular Js",
+      "formBgColor": "hsl(700,93-,53-)",
+      "enrolledDate": "2021-06-08T23:50:54.805Z",
+      "id": 2
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "emailId": "test@test.com",
+      "contact": "123123",
+      "courseId": 34552,
+      "courseName": "Angular Js",
+      "formBgColor": "hsl(700,93-,53-)",
+      "enrolledDate": "2021-06-08T23:51:43.497Z",
+      "id": 3
+    }
+  ]
+}
