@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import { BiLoader } from 'react-icons/bi'
 import { FaVuejs, FaNodeJs, FaAngular, FaReact } from 'react-icons/fa';
 import { SiNextDotJs } from 'react-icons/si';
 import Header from '../Header/Header';
+import Loader from '../Loader/Loader';
+
 import {Link} from 'react-router-dom';
 import './CourseList.css'
 
@@ -35,10 +36,7 @@ class CourseList extends Component {
     if (error) {
          return <div>Error: {error.message}</div>
     } else if (!isCourseListLoaded) {
-         return <div className="loaderStyle">
-                <p><BiLoader/></p>
-                 <p>Loading ...</p>
-              </div>
+         return  <Loader/>
     } else {
       if (courses && courses.length > 0) { 
         const CourseList = courses.map((course, index) => {
@@ -61,6 +59,7 @@ class CourseList extends Component {
         return (
           <div>
                <Header />
+               <Link className="trainee-link" to="/trainees">Trainees Registered</Link>
                <div className="courseSectionStyle">{CourseList}</div>
           </div>
         )

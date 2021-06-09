@@ -17,14 +17,7 @@
     font-size: 40px;
 }
   
-.loaderStyle{
-    color:black;
-    font-size: 25px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:500px;
-}
+
   
 .courseSectionStyle {
     display: flex;
@@ -55,5 +48,10 @@
   .btn a,.btn a:hover, .btn a:visited,  .btn a:focus{
       text-decoration: none;
       
+  }
+
+  .trainee-link{
+    display: flex;
+    justify-content: flex-end;
   }
 

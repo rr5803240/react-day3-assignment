@@ -77,7 +77,10 @@ class RegisterForm extends Component{
     render(){
         if(this.state.isRegsitrationSuccessFull){
             return <p className="register-success">Registration Successfull 
-                     <br/><Link to="/courses">Go Back To Courses</Link>
+                        <ul>
+                            <li><Link to="/courses">Go Back To Courses</Link></li>
+                            <li><Link to="/trainees">View Trainees Registered</Link></li>
+                        </ul>
                     </p>
         }else{
             const registerFormTitle = `Well Done! Please Register for  ${this.state.courseName} course`;
